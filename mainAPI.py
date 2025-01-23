@@ -26,3 +26,6 @@ def read_root():
     return refresh()
 
 
+@app.get("/default")
+def read_root():
+    return "hello it is working"
